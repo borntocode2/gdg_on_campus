@@ -8,7 +8,6 @@ import java.util.function.Predicate;
 public class Timer {
     public static void main(String[] args) {
         BiFunction<Integer, Integer, Integer> getMax = Math::max;
-        BiFunction.apply(2,4);
 
     }
     public static void printTime(){
